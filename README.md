@@ -43,3 +43,11 @@ Berikut saya lampirkan pin mapping masing2:
   profile_pin = 9;
   batt_pin = A3;
   batt_pin2 = A2;
+
+
+CHANGE LOG 
+4.0 :
+1. add live hook ( seting glide time menit dengan hook, satu beep = 1 menit, tahan hook kedepan lalu nyalakan timer, hitung beep lalu lepaskan hook)
+2. apk: read menggunakan pembacaan kode spesifik mencegah data yang acak2an di tabel, bat voll untuk 2s, ACceleration timeout dan mode goto, servo mapping (user input to micros),
+4.1:
+   Fw: bug fix( posisi servo during bailout/ setelah acctimeout), suara buzzer during acc, 
