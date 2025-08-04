@@ -1,0 +1,9 @@
+hardware needed, FTDI RS232 dan kabel usb: solder pin gnd dan pin sebelahnya, lalu pin gnd ditekuk. ( video ada di grup FB miracle timer), usb OTG
+software needed: jika menggunakan PC pakai xloader, pakai hp android - gnakan apk iotoaerduino uploader yang ada di repositori ini.
+jika menggunakan pc mungkin perlu instal driver FTDI
+firmware: download hex file yang sesuai dengan timer anda
+
+tahapan: buka applikasi uploader, pilih hex file, pilih board : bisa arduino pro mini 328p 5v atau arduino nano 328p 5v, colokkan ftdi ke komputer lalu pilih com port, kalau pakai hp colokan ftdi 
+melalui OTG adapter, colokan ke timer ddan pastikan pin dtr bersentuhan. klik upload dan tunggu hingga selesai..
+
+pertanyaan hub chilmi 085707711224
